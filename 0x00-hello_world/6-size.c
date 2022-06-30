@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ *main - multiline print function
+ *Return: Always success (0)
+*/
 int main(void)
 {
  printf("Size if a char: %d bytes(s)\n", sizeof(char));
