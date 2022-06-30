@@ -1,4 +1,4 @@
-#inclide <stdio.h>
+#include <stdio.h>
 #incluide <unistd.h>
 /**
  *main - print exact
