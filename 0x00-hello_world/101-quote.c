@@ -1,5 +1,5 @@
 #include <stdio.h>
-#incluide <unistd.h>
+#include <unistd.h>
 /**
  *main - print exact
  *Return: Always success 0
