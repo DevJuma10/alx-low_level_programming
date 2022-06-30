@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *puts for printf
+ *main - puts inplace of printf
+ *Return 0 - Always a Success
  */
 int main(void)
 {
