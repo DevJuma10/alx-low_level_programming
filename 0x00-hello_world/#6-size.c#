@@ -9,6 +9,6 @@ printf("Size if a char: %d byte(s)\n", sizeof(char));
 printf("Size if an int: %d byte(s)\n", sizeof(int));
 printf("Size if a long int: %d byte(s)\n", sizeof(long int));
 printf("Size if a long long int: %d byte(s)\n", sizeof(long long int));
-printf("Size if a float: %d byte(s)\n", sizeof(float));
-return (0);
+ printf("Size if a float: %d byte(s)\n", sizeof(float));
+ return (0);
 }
