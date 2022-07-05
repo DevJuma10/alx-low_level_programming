@@ -1,21 +1,28 @@
 #include <stdio.h>
 
 /**
-* main - Numbers
-* Description: prints all numbers of base 10 starting from 0 ASCII
+* main - Hexadecimal
+* Description: numbers of base 16 in lowercase
 * Return: 0
 */
 
 int main(void)
 {
-int n;
+int n, m;
 
 n = 48;
+m = 97;
 
 while (n <= 57)
 {
 putchar (n);
 n++;
+}
+
+while (m <= 102)
+{
+putchar (m);
+m++;
 }
 
 putchar('\n');

@@ -1,15 +1,22 @@
+/* alphABET */
+
+#include <stdlib.h>
 #include <stdio.h>
+
 /**
-*main -a program that prints the alphabet in lowercase, followed by a new line
-*Return : always 0
+* main - alphabet game
+* Description:  alphabet in lowercase
+* Return: 0
 */
+
 int main(void)
 {
-int ch;
-for (ch = 97; ch <= 122; ch++)
-{
-putchar(ch);
-}
-putchar(10);
+char ap;
+
+for (ap = 'a' ; ap <= 'z' ; ap++)
+putchar (ap);
+
+putchar('\n');
+
 return (0);
 }

@@ -1,29 +1,37 @@
+/* Positive anything is better than negative nothing */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
-*main ->This program will assign a random number to the variable n
-*each time it is executed and print the last digit of the number
-*Return : always 0
+* main - The last digit
+* Description: evaluates the number
+* Return: 0
 */
+
 int main(void)
 {
 int n;
+int mod;
+char ldo[] = "Last digit of";
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("Last digit of %d is ", n);
-if (n > 5)
+
+mod = n % 10;
+
+if (mod > 5)
 {
-printf("greater than 5");
+printf("%s %d is %d and is greater than 5\n", ldo, n, mod);
 }
-if (n == 0)
+else if (mod == 0)
 {
-printf("0");
+printf("%s %d is %d and is 0\n", ldo, n, mod);
 }
-if (n < 6 && n != 0)
+else if (mod < 6 && mod != 0)
 {
-printf("less than 6 not 0");
+printf("%s %d is %d and is less than 6 and not 0\n", ldo, n, mod);
 }
-printf("\n")
 return (0);
 }

@@ -1,15 +1,23 @@
 #include <stdio.h>
+
 /**
-*main - this is the enrty point of the program
-*Return: success 0
+* main - Numbers
+* Description: prints numbers of base 10 starting from 0
+* Return: 0
 */
+
 int main(void)
 {
-int a = 0;
-for (; a < 1 : a++)
+int n;
+
+n = 0;
+while (n < 10)
 {
-printf("%d", a);
-putchar('\n');
+printf("%d", n);
+n++;
 }
+
+printf("\n");
+
 return (0);
 }

@@ -1,13 +1,22 @@
+#include <stdlib.h>
 #include <stdio.h>
+
 /**
-*main - function entry point
-*Return: always 0
+* main - alphABET
+* Description:  alphabet in lowercase, and then in uppercase
+* Return: 0
 */
+
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
-putchar(a);
+char ap;
+
+for (ap = 'a' ; ap <= 'z' ; ap++)
+putchar (ap);
+for (ap = 'A' ; ap <= 'Z' ; ap++)
+putchar (ap);
+
 putchar('\n');
-return(0);
+
+return (0);
 }

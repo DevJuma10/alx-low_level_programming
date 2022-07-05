@@ -1,17 +1,22 @@
 #include <stdio.h>
+
 /**
-*main - entry point
-*Return : return 0 sucess
+* main - alphabet
+* Description: all the letters except q and e
+* Return: 0
 */
+
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
+char ap;
+
+for (ap = 'a' ; ap <= 'z' ; ap++)
 {
-if (a == 'q' || a == 'e')
-{
-continue;
+if (ap != 'e' && ap != 'q')
+putchar (ap);
 }
-putchar (a);
+
+putchar('\n');
+
 return (0);
 }
